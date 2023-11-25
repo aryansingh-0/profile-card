@@ -1,0 +1,85 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.profile_box {
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    box-shadow: 0.4px 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.upperBox {
+    height: 35%;
+    width: 100%;
+    background-color: rgb(75, 75, 224);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.profile-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255); /* First border */
+    box-shadow: 0 0 0 1.8px rgb(75, 75, 224);  /* Second border */
+
+    margin-top: 15px; 
+    margin-left: 65px;
+}
+
+H3{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: small;
+    margin-top: -20px;
+}
+.btn{
+    padding-top: 8px;
+}
+button{
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(75, 75, 224);;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    text-align: center;
+   
+}
+
+.sub {
+    font-size: 5px;
+    letter-spacing: 0.2px;
+    padding-left:6px;
+    padding-right: 6px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.btn .sub1:hover {
+    box-shadow: 0px 0px 5px 0.2px rgb(71, 71, 87);
+}
+
+.btn .sub2:hover {
+    box-shadow: 0px 0px 5px 0.2px rgb(71, 71, 87);
+}
+.like {
+    font-size: small;
+    font-weight: normal;
+    justify-content: space-evenly;
+
+}
+.like i{
+    padding-left: 5px;
+}
